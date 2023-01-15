@@ -55,7 +55,7 @@ export default function Home({ position }) {
               slidesToShow: 1,
               slidesToScroll: 1,
               pauseOnHover: true,
-              // autoplay: true,
+              autoplay: true,
               autoplaySpeed: 3500,
               arrows: false,
               afterChange: (e) => {
