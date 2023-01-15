@@ -48,7 +48,7 @@ const lokacija = ({ position }) => {
             </p>
             <div className='my-5 flex gap-10'>
               <Button blank={true} position={position}>
-                Prikaži najkraću putanju
+                Prikaži putanju
               </Button>
               <Button onClick={() => call()}>Pozovi</Button>
             </div>
