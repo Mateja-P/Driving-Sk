@@ -260,7 +260,7 @@ export default function Home({ position }) {
           </div>
           <div className='flex-1'>
             <div className='relative after:absolute after:w-full after:h-full after:left-0 after:top-0 after:bg-[rgba(0,0,0,0.65)] h-full'>
-              <img className='h-full' src={frImg.src} />
+              <img className='h-full sm:h-[250px] sm:w-full' src={frImg.src} />
             </div>
           </div>
         </div>
