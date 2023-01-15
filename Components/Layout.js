@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
     <div>
       <Header usersPosition={position} />
       <GoToTop endLoc={footerLoc} />
-      <QuickActions />
+      <QuickActions position={position} />
       {children}
       <Footer getLoc={giveLoc} usersPosition={position} />
     </div>

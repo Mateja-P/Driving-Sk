@@ -7,9 +7,9 @@ import SpeedDialAction from '@mui/material/SpeedDialAction';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import CallIcon from '@mui/icons-material/Call';
 
-import { call, direction } from '../Components/exports';
+import { call } from '../Components/exports';
 
-const QuickActions = () => {
+const QuickActions = ({ position }) => {
   const router = useRouter();
   const [isVisible, setIsvisible] = useState(false);
 
@@ -59,7 +59,18 @@ const QuickActions = () => {
                 if (action.name == 'Pozovi') {
                   call();
                 } else if (action.name == 'Prikazi Putanju') {
-                  direction();
+                  const successCallback = (position) => {
+                    setPosition(position.coords.accuracy);
+                  };
+
+                  const errorCallback = (error) => {
+                    console.log(error);
+                  };
+
+                  navigator.geolocation.getCurrentPosition(
+                    successCallback,
+                    errorCallback
+                  );
                 }
               }}
             />
