@@ -3,7 +3,7 @@ import Layout from '../Components/Layout';
 import { useState, useEffect } from 'react';
 
 export default function App({ Component, pageProps }) {
-  const [position, setPosition] = useState(0);
+  const [position, setPosition] = useState(44.7837198, 20.4172);
 
   useEffect(() => {
     const successCallback = (position) => {

@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 
 const Layout = ({ children }) => {
   const [footerLoc, setFooterLoc] = useState();
-  const [position, setPosition] = useState(0);
+  const [position, setPosition] = useState(44.7837198, 20.4172);
 
   const giveLoc = (val) => {
     setFooterLoc(val);
