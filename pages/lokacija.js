@@ -47,9 +47,7 @@ const lokacija = ({ position }) => {
               možete lako prepoznati po plakatima na samom ulazu.
             </p>
             <div className='my-5 flex gap-10'>
-              <Button blank={true} position={position}>
-                Prikaži putanju
-              </Button>
+              <Button direction={true}>Prikaži putanju</Button>
               <Button onClick={() => call()}>Pozovi</Button>
             </div>
             <div className='absolute bottom-[-50px] right-[-20px] md:bottom-0 md:right-0 sm:bottom-[-30px]'>
@@ -117,9 +115,7 @@ const lokacija = ({ position }) => {
             Biće nam drago da se vidimo, DOBRO DOŠLI
           </h2>
           <div className='my-10 flex gap-10'>
-            <Button blank={true} position={position}>
-              Prikaži najkraću putanju
-            </Button>
+            <Button direction={true}>Prikaži najkraću putanju</Button>
             <Button onClick={() => call()}>Pozovi</Button>
           </div>
         </div>

@@ -50,8 +50,8 @@ const Footer = ({ getLoc, usersPosition }) => {
             <h3 className='mb-5 font-semibold text-lg'>Kontakt</h3>
             <a
               className='flex items-center my-2 cursor-pointer'
-              href={`https://www.google.com/maps/dir/${usersPosition}/%D0%A6%D0%B5%D0%BD%D1%82%D0%B0%D1%80+%D0%B7%D0%B0+%D0%BE%D0%B1%D1%83%D0%BA%D1%83+%D0%B2%D0%BE%D0%B7%D0%B0%D1%87%D0%B0+,,Top+Drive+Gold%22,+Edvarda+Griga+7b,+Beograd+11231/@44.7430411,20.4024085,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x475a6fda10a5d159:0x513f9f9d4a5d5bb4!2m2!1d20.4137645!2d44.7738858!1m5!1m1!1s0x475a738ed6e58577:0xa56d3b649b9a958!2m2!1d20.4615968!2d44.7124491!3e3?authuser=3`}
               target='_blank'
+              href='https://www.google.com/maps/place/%D0%A6%D0%B5%D0%BD%D1%82%D0%B0%D1%80+%D0%B7%D0%B0+%D0%BE%D0%B1%D1%83%D0%BA%D1%83+%D0%B2%D0%BE%D0%B7%D0%B0%D1%87%D0%B0+,,Top+Drive+Gold%22/@44.7124501,20.4610483,19z/data=!3m1!4b1!4m5!3m4!1s0x475a738ed6e58577:0xa56d3b649b9a958!8m2!3d44.7124491!4d20.4615968?authuser=3'
             >
               <img className='w-[22px] mr-2' src={location.src} />
               <div className='inter'>Edvarda Griga 7 Resnik</div>

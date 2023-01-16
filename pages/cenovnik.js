@@ -40,9 +40,7 @@ const cenovnik = ({ position }) => {
               </div>
             </div>
             <div className='mt-10 flex justify-center gap-14'>
-              <Button blank={true} position={position}>
-                Prikaži lokaciju
-              </Button>
+              <Button direction={true}>Prikaži lokaciju</Button>
               <Button onClick={() => call()}>Pozovi</Button>
             </div>
           </div>
