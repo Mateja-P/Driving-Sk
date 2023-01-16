@@ -6,31 +6,18 @@ import { useState, useEffect } from 'react';
 
 const Layout = ({ children }) => {
   const [footerLoc, setFooterLoc] = useState();
-  const [position, setPosition] = useState(44.7837198, 20.4172);
 
   const giveLoc = (val) => {
     setFooterLoc(val);
   };
 
-  useEffect(() => {
-    const successCallback = (position) => {
-      setPosition(position.coords.accuracy);
-    };
-
-    const errorCallback = (error) => {
-      console.log(error);
-    };
-
-    navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
-  }, []);
-
   return (
     <div>
-      <Header usersPosition={position} />
+      <Header />
       <GoToTop endLoc={footerLoc} />
-      <QuickActions position={position} />
+      <QuickActions />
       {children}
-      <Footer getLoc={giveLoc} usersPosition={position} />
+      <Footer getLoc={giveLoc} />
     </div>
   );
 };
