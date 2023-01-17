@@ -17,7 +17,7 @@ import blCall from '../Images/Others/call-bl.svg';
 import blLocation from '../Images/Others/location-bl.svg';
 import vozackaImg from '../Images/Home/3section/image1.jpeg';
 import lokacijaImg from '../Images/Home/3section/image2.png';
-import carImg from '../Images/Home/3section/image3.jpg';
+import carImg from '../Images/Vozila/image2.png';
 import frImg from '../Images/Home/4section/image1.jpg';
 import greenArrowImg from '../Images/Others/arrow2.png';
 import ftImg from '../Images/Home/5section/image1.png';
@@ -28,7 +28,7 @@ import prakticniImg from '../Images/Home/5section/prakticni_deo.png';
 import teorijskiImg from '../Images/Home/5section/teorijski_deo.png';
 import favicon from '../Images/Others/favicon.png';
 
-export default function Home({ position }) {
+export default function Home() {
   const [activeSlide, setActiveSlide] = useState(0);
   const router = useRouter();
 

@@ -86,21 +86,21 @@ const lokacija = ({ position }) => {
                   arrows: false,
                 }}
               >
-                <div>
+                {/* <div>
                   <img className='w-full' src={slideImg1.src} />
-                </div>
+                </div> */}
                 <div>
                   <img className='w-full' src={slideImg2.src} />
                 </div>
-                <div>
+                {/* <div>
                   <img className='w-full' src={slideImg3.src} />
-                </div>
+                </div> */}
                 <div>
                   <img className='w-full' src={slideImg4.src} />
                 </div>
-                <div>
+                {/* <div>
                   <img className='w-full' src={slideImg5.src} />
-                </div>
+                </div> */}
                 <div>
                   <img className='w-full' src={slideImg6.src} />
                 </div>

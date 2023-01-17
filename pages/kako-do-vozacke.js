@@ -5,7 +5,8 @@ import Head from 'next/head';
 import tnImg from '../Images/Kako_do_vozacke/teorijska_nastava.png';
 import tiImg from '../Images/Kako_do_vozacke/teorijski_ispit.png';
 import poImg from '../Images/Kako_do_vozacke/prakticna_obuka.png';
-import piImg from '../Images/Kako_do_vozacke/prakticni_ispit.png';
+// import piImg from '../Images/Kako_do_vozacke/prakticni_ispit.png';
+import piImg from '../Images/Vozila/image1.jpg';
 import dlImg from '../Images/Home/3section/image1.jpeg';
 import favicon from '../Images/Others/favicon.png';
 
