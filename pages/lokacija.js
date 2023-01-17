@@ -67,8 +67,10 @@ const lokacija = ({ position }) => {
                 Top Drive Gold kao mesto za učenje
               </h1>
               <p className='lg-text mt-14 w-[700px] xl:w-auto'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                U ovim učionicama naši polaznici stiču elementarno znanje o
+                saobraćaju i polažu teorijski ispit. 90% njih iz prve položi
+                teorijki deo što bi vama dalo vetar u ledja da otpočnete
+                školovanje baš kod nas.
               </p>
             </div>
             <div className='w-[550px] 2xl:flex-1 2xl:w-[400px] xl:w-1/2 md:w-3/4 sm:w-4/5'>
