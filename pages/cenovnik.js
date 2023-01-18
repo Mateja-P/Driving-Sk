@@ -30,7 +30,7 @@ const cenovnik = ({ position }) => {
                 Teorijska obuka 40 časova cena 14.000,00 dinara
               </div>
               <div className='lg-text py-3 border-gray-100 border inter'>
-                Teorijski ispit 4.000,00
+                Teorijski ispit 4.000,00 dinara
               </div>
               <div className='lg-text py-3 border-gray-100 border inter'>
                 Praktična obuka 40.000,00 cena 48.000,00 dinara
