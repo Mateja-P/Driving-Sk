@@ -63,7 +63,7 @@ const lokacija = ({ position }) => {
         <div className='w2'>
           <div className='flex justify-between items-start xl:gap-10 md:flex-col md:items-center'>
             <div className='flex-1 text-white xl:w-1/2 md:w-full'>
-              <h1 className='section-title md:w-full'>
+              <h1 className='section-title 2xl:w-2/3 xl:w-4/5 md:w-full'>
                 Top Drive Gold kao mesto za učenje
               </h1>
               <p className='lg-text mt-14 w-[700px] xl:w-auto'>
