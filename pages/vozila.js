@@ -24,15 +24,13 @@ const Vozila = () => {
             <div className='w-[500px] mr-14 lg:flex-1 md:mt-5 sm:w-10/12 xs:w-11/12'>
               <Image src={image1.src} triangleColor='!border-x-[#fff]' />
             </div>
-            {/* <img className='w-[450px] mr-14' src={image1.src} /> */}
             <h2 className='section-title lg:flex-1'>Volkswagen Golf</h2>
           </div>
           <div className='flex mt-14 md:flex-col-reverse'>
             <div className='w-[500px] mr-14 lg:flex-1 md:mt-5 sm:w-10/12 xs:w-11/12'>
               <Image src={image2.src} triangleColor='!border-x-[#fff]' />
             </div>
-            {/* <img className='w-[450px] mr-14' src={image2.src} /> */}
-            <h2 className='section-title lg:flex-1'>Škoda Fabia Octavia</h2>
+            <h2 className='section-title lg:flex-1'>Škoda Fabia</h2>
           </div>
         </div>
       </div>
