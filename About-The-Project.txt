@@ -1,3 +1,4 @@
-This project was done for a client at the of 2022.
+This project was done for a client that opened a new driving school. Since they are waiting for the permission to start, the web site will be live soon, so I was able to publish it as my project.
+
 It was written in:  -Next.js
                     -Tailwind
