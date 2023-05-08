@@ -1,0 +1,3 @@
+This project was done for a client at the of 2022.
+It was written in:  -Next.js
+                    -Tailwind
