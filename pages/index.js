@@ -154,7 +154,7 @@ export default function Home() {
                   </h2>
                   <p className='inter lg-text'>
                     Top Drive Gold je novootvorena auto škola u Resniku i naš
-                    cilj je da polazinicima prenesemo teorisko i prakticno
+                    cilj je da polazinicima prenesemo teorisko i praktično
                     znanje tako da efikanso i po konkuretnoj ceni mogu doći do
                     vozačke dozvole koju žele.
                   </p>
@@ -356,9 +356,9 @@ export default function Home() {
           <div className='flex-[0.7] flex flex-col justify-between lg:justify-evenly'>
             <h1 className='section-title'>Započni proces</h1>
             <p className='lg-text mt-3 mb-6'>
-              Ceo proces od upisivanja do dobijanja vozacke dozvole se sastoji
-              iz teorijskog i praktičnog dela. Oba traju po 40 casova a po
-              zavrsetku imaćete priliku da položite završni ispit ili polaganje.
+              Ceo proces od upisivanja do dobijanja vozačke dozvole se sastoji
+              iz teorijskog i praktičnog dela. Oba traju po 40 časova a po
+              završetku imaćete priliku da položite završni ispit ili polaganje.
               Na kraju vas čeka dugo željena vozačka dozvola.
             </p>
             <img className='w-full md:w-1/2 sm:w-full' src={ftImg.src} />
@@ -395,8 +395,8 @@ export default function Home() {
                   </h3>
                   <p className='lg-text'>
                     U teorijskom delu polaznici uče o osnovama u saobraćuju i
-                    svim neizbeznim informacijama koje su vezane za njega.
-                    Polaznik ima 40 časova teorije pre nego sto izadje na
+                    svim neizbežnim informacijama koje su vezane za njega.
+                    Polaznik ima 40 časova teorije pre nego što izadje na
                     teorijski ispit.
                   </p>
                 </div>
