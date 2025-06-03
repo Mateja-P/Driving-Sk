@@ -1,6 +1,6 @@
 import React from 'react';
 import image1 from '../Images/Vozila/image1.jpg';
-import image2 from '../Images/Vozila/image2.png';
+import image2 from '../Images/Vozila/image2.jpg';
 import Bck from '../Components/Bck';
 import Head from 'next/head';
 import ImageComp from '../Components/ImageComp';
@@ -28,7 +28,7 @@ const Vozila = () => {
         <meta property="og:description" content="Efikasna i pristupačna obuka vozača u Resniku. Postanite vozač sa Auto Školom Avala." />
         <meta property="og:url" content="https://www.autoskolaavala.com/vozila" />
         <meta property="og:image" content="https://www.autoskolaavala.com/favicon.png" />
-        <meta property="og:site_name" content="Auto Škola Avala Resnik" />
+        <meta property="og:site_name" content="verceAuto Škola Avala Resnik" />
 
         <link rel="canonical" href="https://www.autoskolaavala.com/vozila" />
         <link rel='icon' href={favicon.src} />

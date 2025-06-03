@@ -61,7 +61,7 @@ const cenovnik = ({ position }) => {
                 B kategorija
               </div>
               <div className='font-semibold text-xl py-3 border-gray-100 border'>
-                79.000 + taksa za MUP
+                74.000 + taksa za MUP
               </div>
               <div className='lg-text py-3 border-gray-100 border inter'>
                 Teorijska obuka 40 časova cena 14.000,00 dinara
@@ -70,7 +70,7 @@ const cenovnik = ({ position }) => {
                 Teorijski ispit 5.000 din + taksa za MUP 
               </div>
               <div className='lg-text py-3 border-gray-100 border inter'>
-                Praktična obuka 55.000 dinara
+                Praktična obuka 50.000 dinara
               </div>
               <div className='lg-text py-3 border-gray-100 border inter'>
                 Praktični ispit 5000 din + taksa za MUP
